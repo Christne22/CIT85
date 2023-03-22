@@ -1,0 +1,105 @@
+
+html {
+   font-size: 12px;
+}
+
+/* body */
+body {
+   margin: auto;
+   font-family: "Century Gothic", Tahoma, Arial, Helvetica, sans-serif;
+   background-color: #FFFFF0;
+}
+
+/* header section */
+h1 {
+   padding: 0.6em 0 0.6em 0;
+   text-align: center;
+   font-family: "Lucida Handwriting", Bitter, "Times New Roman", Times, serif;
+   font-weight: 600;
+   color: #cccccc;
+   background-color: #45b0c7;
+   font-size: 3.4em;
+}
+
+.intro {
+   padding: 2rem 0 1rem 0;
+   background-color: ivory;
+   position: relative;
+}
+.page {
+   padding: 0.2rem 0 0 0;
+   font-size: 2em;
+   line-height: 2em;
+   text-align: center;
+}
+
+.title {
+   padding-top: .02rem;
+   font-size: 2em;
+   line-height: 2em;
+   text-align: center;
+   font-family: "Lucida Handwriting", Bitter, "Times New Roman", Times, serif;
+}
+
+
+.list {
+   padding: 2rem 0 2rem 0;
+   background-color: #a0c4cc;
+   position: relative;
+}
+
+ul.columns {
+   text-align: left;
+   font-size: 2rem;
+   margin-left: 20%;
+   margin-right: 15%;   
+}
+
+.colors {
+   padding: 2rem 0 2rem 0;
+   background-color: #ffffff;
+   position: relative;
+}
+
+#red {
+   color: #ff0000;
+}
+
+#orange {
+   color: #ffa500;
+}
+
+#yellow {
+   color: #e6e600;
+}
+
+#green {
+   color: #00ff00;
+}
+
+#blue {
+   color: #0000ff;
+}
+
+#indigo {
+   color: #9500ff;
+}
+
+#violet {
+   color: #e01fe0;
+}
+
+footer {
+   margin-top: 1.5em;
+}
+.footer {
+   padding: 1em;
+   background-color: #0b5e70;
+   font-family: "Century Gothic", Tahoma, Arial, Helvetica, sans-serif;
+   color: #cccccc;
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+
+
