@@ -1,0 +1,23 @@
+body {
+   font-size: 1.5em;
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Lucida Handwriting', 'Brush Script MT', 'MV Boli', Impact;
+}
+
+div p {
+   color: crimson;
+}
+
+div > p {
+   color: cornflowerblue;
+}
+
+div ~ p {
+   color: green;
+}
+
+div + p {
+   color: cyan;
+}
+
