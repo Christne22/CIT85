@@ -1,47 +1,54 @@
 body {
+   /* specifies background color of element*/
    background-color: #f2f2f2;
 }
 
-.container {
-	width: 90%;
-   height: auto;
-	margin: auto;
-	overflow: hidden;
-   border: 3px solid #8b0000;
-}
-
-header h1 {
+h1 {
+   /* specifies text alignment and font style of element */
    text-align: center;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* specifies text color of element */
    color: #11546f;
    width: auto;
    height: auto;
 }
 
+.container {
+   /* specifies width of class attribute */
+	width: 90%;
+   height: auto;
+	margin: auto;
+	overflow: hidden;
+   /* specifies border style & color of class attribute */
+   border: 3px solid #8b0000;
+}
 
 #title {
 	width: auto;
    height: auto;
+   /* specifies border style & margin of id attribute */
    border-style: dotted;
    margin: 1.5px;
 }
 
 .highlight {
+   /* specifies font style & font color of class attribute */
    font-family:'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
    color: #5f9ea0;
 }
 
 .food {
+   /* specifies width & margins of class attribute */
    margin-top: 10px;
    margin-bottom: 10px;
    width: 90%;
    margin-left: auto;
    margin-right: auto;
-   text-align: center;
-
 }
 
 .faves {
+   /* specifies border style & margin of id attribute */
    border-style: double;
    font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
    color: #c71f73;
@@ -49,26 +56,29 @@ header h1 {
    text-align: center;
 }
 
+ul {
+   padding-bottom: 10px;
+   /* specifies text centered with respect to entire width of page */
+   text-align: center;
+   width: 100%;
+}
+
 li {
    font-family:Arial, Helvetica, sans-serif;
    font-size: 1.2rem;
    align-content: center;
+   /* specifies no bullets in list */
    list-style: none;
-   text-decoration: none;
    margin-right: 10%;
 }
 
-ul {
-   list-style: circle;
-   padding-bottom: 10px;
-   text-align: center;
-   width: 100%;
-}
 .quotes {
+   /* specifies width of class attribute */
 	width: 90%;
    height: auto;
 	margin: auto;
 	overflow: hidden;
+   /* specifies border style & color of class attribute */
    border: 3px solid #000000;
    text-align: center;
    background-color: #f2f2f2;
@@ -79,6 +89,7 @@ h2 {
    font-family: Century, Arial, sans-serif;
    margin-top: .5rem;
    margin-bottom: .5rem;
+   /* specifies border style & border color surrounding element */
    border-style: dotted;
    border-color:#ff6666;
 }
@@ -91,10 +102,12 @@ p {
    font-weight: bold;
 }
 
-.first {
+p.first {
+   /* specifies color of class attribute */
    color: #5f9ea0;
    width: auto;
    height: auto;
+   /* specifies border style of class attribute */
    border-style: outset;
    margin: 1.5px;
    margin-top: 1rem;
@@ -102,7 +115,7 @@ p {
 
 }
 
-.second {
+p.second {
    color:#8b0000;
    width: auto;
    height: auto;
@@ -113,7 +126,7 @@ p {
 
 }
 
-.third {
+p.third {
    color:#1f97c7;
    width: auto;
    height: auto;
@@ -124,7 +137,7 @@ p {
 
 }
 
-.fourth {
+p.fourth {
    color: #ff6666;
 	width: auto;
    height: auto;
