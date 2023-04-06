@@ -1,0 +1,77 @@
+h1 {
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 2.5rem;
+   letter-spacing: .5rem;
+   text-shadow: 3px 3px 6px #28a4a4;
+
+}
+
+h2 {
+   font-family: serif;
+   text-align: center;
+   font-size: 1.5rem; 
+   word-spacing: .2rem;
+   padding-bottom: 5px;
+}
+
+p {
+   font-family: 'Poppins';
+   text-indent: 1.5rem;
+   display: block;
+   width: 90%;
+   margin: 5%;
+}
+
+.intro {
+   font-style: normal;
+   font-weight: 100;
+   font-size: 1.25rem;
+   display: block;
+}
+
+#author {
+   text-align: center;
+   font-style: italic;
+   font-weight: 300;
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   letter-spacing: .2rem;
+}
+
+img {
+   width: 80%;
+   margin: 10% 10% 0 10%;
+}
+
+div.image {
+   width: 90%;
+   border: 1rem solid black;
+   padding: .5rem;
+}
+
+li {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5rem;
+   margin: 1rem;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: #28a4a4;
+   text-decoration: underline;
+}
+
+#info {
+   font-style: oblique;
+   font-weight: 100;
+   font-size: 1.5rem;
+   text-align: center;
+   text-decoration: line-through;
+}
