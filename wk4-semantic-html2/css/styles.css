@@ -1,0 +1,142 @@
+body {
+   font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.container {
+   max-width: 100%;
+   position: relative;
+}
+
+header {
+   text-align: center;
+   padding-top: 1rem;
+}
+
+h1 {
+   font-family: 'Lucida Handwriting', Arial, Helvetica, sans-serif; 
+   margin: 0;
+}
+img {
+   width: 20%;
+}
+
+p.logo {
+   margin: 0;
+}
+
+#top {
+   border-style:groove;
+   border-color: aquamarine;
+   border-top-left-radius: 4.1rem;
+   border-top-right-radius: 4.1rem;
+}
+
+nav {
+   border-style: dotted;
+   border-color: pink;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+li {
+   list-style: circle;
+}
+
+h2 {
+   font-family: 'Arial Narrow', Arial, sans-serif;
+   font-size: 24px;
+   text-align: center;
+}
+
+article {
+   width: 49.5%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+}
+#art {
+   border-style: dotted;
+   border-color: lime;
+   height: 500px;
+   border-bottom-left-radius: 4.1rem;
+}
+
+p {
+   font-size: 14px;
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+}
+
+section {
+   margin-top: 5px;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   margin-right: 10px;
+}
+
+#first {
+   height: 175px;
+   border-style: groove;
+   border-color:lightgray;
+   border-top-left-radius: 2.1rem;
+   border-top-right-radius: 2.1rem;
+   border-bottom-left-radius: 2.1rem;
+   border-bottom-right-radius: 2.1rem;
+   margin-bottom: 10px;
+}
+
+#second {
+   height: 175px;
+   border-style: groove;
+   border-color:lightgray;
+   border-top-left-radius: 2.1rem;
+   border-top-right-radius: 2.1rem;
+   border-bottom-left-radius: 2.1rem;
+   border-bottom-right-radius: 2.1rem;
+}
+
+h3 {
+   text-align: center;
+   font-size: 1rem;
+}
+
+#feet {
+   height: 50px;
+   padding-top: 5px;
+}
+
+aside {
+   margin-bottom: 5px;
+   float: right;
+   width: 49.5%;
+}
+
+#fun {
+   height: 500px;
+   border-style: dotted;
+   border-color: violet;
+   border-bottom-right-radius: 4.1rem;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+}
+
+footer {
+   text-align: center;
+   text-transform: uppercase;
+   font-family: 'Comic Sans', Arial, Helvetica, sans-serif;
+   font-style: italic;
+}
+
+#bottom {
+   display: inline-block;
+   height: 50px;
+   width: 100%;
+}
+
+.base {
+   font-size: 18px;
+}
+
+
+
