@@ -29,7 +29,6 @@ li {
 a {
    color: white;
    font-size: 1rem;
-
 }
 
 h3 {
@@ -39,6 +38,7 @@ h3 {
 section {
    background-color: yellow;
    width: 60%;
+   height: 400px;
    float: left;
    margin-bottom: .5rem;
 }
@@ -46,6 +46,7 @@ section {
 aside {
    background-color: lightskyblue;
    width: 39.5%;
+   height: 400px;
    float: right;
    margin-bottom: .5rem;
 }

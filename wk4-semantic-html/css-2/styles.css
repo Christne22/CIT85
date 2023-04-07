@@ -1,3 +1,12 @@
+body {
+   font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+.container {
+   border-style: double;
+   padding: 1px 4px 1px 4px;
+}
+
 header {
    width: 100%;
    text-align: center;
@@ -6,21 +15,24 @@ header {
 
 nav {
    display: block;
+   text-align: center;
 }
 
 li {
    list-style: none;
-}
+   }
 
-.container {
-   border-style: double;
-   padding: 1px 4px 1px 4px;
-   margin-bottom: 2px;
-}
+a {
+   text-decoration: none;   
+}   
 
 section {
    width: 60%;
    float: left;
+}
+
+#history {
+   height: 250px;
 }
 
 aside {
@@ -28,11 +40,18 @@ aside {
    float: right;
 }
 
+#new {
+   height: 508px;
+}
+
 article {
    width: 60%;
    float: left;
 }
 
+#up {
+   height: 250px;
+}
 footer {
    width: 100%;
    text-align: center;

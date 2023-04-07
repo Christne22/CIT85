@@ -26,6 +26,7 @@ nav {
    color: black;
    font-size: 1rem;
    margin-right: .5rem;
+   margin-bottom: .5rem;
    
 }
 
@@ -42,19 +43,21 @@ a {
 aside {
    background-color: rgb(236, 192, 110);
    width: 39%;
+   height: 500px;
    float: right;
    margin-left: .5rem;
-   margin-bottom: .25rem;
-
+   margin-bottom: .5rem;
 }
 
 article {
    background-color: lawngreen;
    display: inline-block;
    width: 34.5%;
+   height: 500px;
+   margin-bottom: .5rem;
 }
 
-section {
+section.news {
    background-color: violet;
    width: auto;
    float: left;
@@ -63,11 +66,12 @@ section {
    padding-bottom: 10px;
 }
 
-section1 {
+section.time {
    background-color: crimson;
    width: auto;
    float: left;
-   margin-bottom: .4rem;
+   padding-top: 1px;
+   margin-bottom: .75rem;
  }
 
 footer {

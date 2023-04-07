@@ -1,3 +1,7 @@
+body {
+   font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+   
 header {
    width: 100%;
    text-align: center;
@@ -15,10 +19,17 @@ h3 {
 }
 
 section {
-   width: 58%;
+   width: 59%;
    float: left;
 }
 
+.back {
+   margin-bottom: 2.5rem;   
+}
+
+#bkgrd {
+   height: 400px;
+}
 article {
    margin: 1em;
 }
@@ -36,6 +47,10 @@ p {
 aside {
    width: 40%;
    float: right;
+}
+
+#new {
+   height: 400px;
 }
 
 footer {
