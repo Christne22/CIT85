@@ -1,0 +1,49 @@
+header {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+h3 {
+   margin-left: 1em;
+}
+
+.container {
+   background-color: #e6f2ff;
+   padding: 1px 0 1px 0;
+   margin-bottom: 10px;
+}
+
+section {
+   width: 58%;
+   float: left;
+}
+
+article {
+   margin: 1em;
+}
+
+p {
+   margin: 1em;
+}
+
+.extra {
+   background-color: #b3d9ff;
+   padding-top: .1em;
+   padding-bottom: .1em;
+}
+
+aside {
+   width: 40%;
+   float: right;
+}
+
+footer {
+   width: 100%;
+   text-align: center;
+   display: inline-block;
+}
+
+.accent {
+   font-style: italic;
+}

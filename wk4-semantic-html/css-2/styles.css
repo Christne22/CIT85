@@ -1,0 +1,40 @@
+header {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 2px;
+}
+
+nav {
+   display: block;
+}
+
+li {
+   list-style: none;
+}
+
+.container {
+   border-style: double;
+   padding: 1px 4px 1px 4px;
+   margin-bottom: 2px;
+}
+
+section {
+   width: 60%;
+   float: left;
+}
+
+aside {
+   width: 39.5%;
+   float: right;
+}
+
+article {
+   width: 60%;
+   float: left;
+}
+
+footer {
+   width: 100%;
+   text-align: center;
+   display: inline-block;
+}
