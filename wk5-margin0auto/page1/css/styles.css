@@ -1,0 +1,46 @@
+* {
+   background-color: blue;
+}
+
+div.container {
+   width: 60%;
+   margin: auto;
+   border: 2px solid black;
+   padding: .75px;
+}
+
+div {
+   background-color: rgb(65, 175, 14);
+}
+
+div.image {
+   padding-top: 5px;
+   padding-bottom: 20px
+}
+img {
+   border: 3px groove yellow;
+   border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+   display: block;   
+}
+
+h1 {
+   font-size: 16px;
+   background-color: rgb(65, 175, 14);
+   margin: 0 0 1px 0;
+}
+
+#one {
+   color: blue;
+}
+
+#two {
+   color: red;
+}
+p {
+   font-size: 10px;
+   background-color: rgb(65, 175, 14);
+   margin: 0 0 10px 0;
+}
