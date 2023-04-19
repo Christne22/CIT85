@@ -1,0 +1,29 @@
+#container {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: stretch;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.fg1 {
+   flex-grow: 1;
+   width: 280px;
+   height: 100px;
+   border: 3px solid black;
+   margin: 1px;
+   background-color: salmon;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.fg2 {
+   flex-grow: 2;
+   width: 280px;
+   height: 100px;
+   border: 2px solid black;
+   margin: 1px;
+   background-color: salmon;
+   font-size: 2rem;
+   font-weight: bold;
+}
