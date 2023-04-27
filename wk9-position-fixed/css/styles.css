@@ -1,0 +1,25 @@
+section {
+   width: 100%;
+   height: auto;
+   background-color:bisque
+}
+
+li {
+   line-height: 2rem;
+   font-size: 1.5rem;
+}
+
+footer {
+   text-align: center;
+   line-height: 2rem;
+}
+
+#foot {
+   width:100%;
+   height: auto;
+   background-color: rgba(62, 184, 245, 0.25);
+   position: fixed;
+   right: 0;
+   bottom: 0;
+}
+
