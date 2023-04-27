@@ -1,0 +1,21 @@
+div {
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   border: 10px solid transparent;
+}
+
+#first {
+   background-color: darkturquoise;
+}
+
+#second {
+   background-color: coral;
+   position: relative;
+   left: 60px;
+}
+
+#third {
+   background-color:lawngreen;
+}
+
