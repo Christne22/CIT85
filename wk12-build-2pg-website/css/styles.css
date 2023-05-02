@@ -1,0 +1,128 @@
+.index {
+   background-image: url("../img/murphy.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}   
+
+.about {
+   background-color: blueviolet;
+}
+
+#murphy {
+   width: 100%;
+}
+
+#two {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: auto;
+   margin: auto;
+   border: 3px solid rgb(76, 43, 226);
+   background-color: rgb(76, 43, 226);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+h1 {
+   color: white;
+   font-family: "Footlight MT Light", Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: 1.75rem;
+}
+
+div {
+   height: 25px;
+   width: 100%;
+   background-color: white;
+}
+
+.my-story {
+   height: 400px;
+   width: 80%;
+   margin: auto;
+   border: 5px solid  rgb(76, 43, 226);
+   margin-top: 100px;
+   box-shadow: 10px 10px;
+
+}
+
+.disaster {
+   height: 500px;
+   width: 80%;
+   margin: auto;
+   border: 5px solid  rgb(76, 43, 226);
+   margin-top: 50px;
+   margin-bottom: 100px;
+   background-color: white;
+   box-shadow: 10px 10px;
+
+}
+
+.disney-dream {
+   height: 600px;
+   width: 80%;
+   margin: auto;
+   border: 5px solid  rgb(76, 43, 226);
+   margin-top: 50px;
+   margin-bottom: 50px;
+   box-shadow: 10px 10px;
+}
+
+.text {
+   height: 400px;
+   width: 50%;
+   float: left;
+}
+
+.history {
+   height: 600px;
+   width: 50%;
+   float: right;
+}
+
+p {
+   font-family: "Footlight MT Light", Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   text-align: center;
+   padding-top: 3rem;
+}
+
+.recent {
+   font-family: "Footlight MT Light", Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+   text-align: center;
+   padding-top: 2rem;
+
+}
+
+.picture {
+   height: 400px;
+   width: 50%;
+   float: right;
+}
+
+.fantasy {
+   height: 600px;
+   width: 50%;
+   float: left;
+}
+
+footer {
+   font-family: 'Poppins';
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(76, 43, 226);
+   text-align: center;
+   color: white;
+   font-size: 1rem;
+   clear: both;
+}
+
