@@ -30,6 +30,22 @@ h1 {
    font-family: "Footlight MT Light", Arial, Helvetica, sans-serif;
    text-align: center;
    font-size: 1.75rem;
+   margin: auto;
+}
+
+nav {
+   text-align: center;
+   font-size: 1.5rem;
+   padding-top: 5px;
+
+}
+
+a {
+   color:rgb(127, 110, 202)
+}
+
+a:hover {
+   color: rgb(74, 245, 151);
 }
 
 div {
