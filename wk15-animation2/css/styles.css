@@ -9,7 +9,10 @@ body {
 }
 
 #box {
-   width: 475px;
+   width: 60%;
+   height: 500px;
+   border: 2px solid black;
+   margin: auto;
 }
 
 .ball {
