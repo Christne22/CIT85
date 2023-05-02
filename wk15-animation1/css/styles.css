@@ -17,7 +17,7 @@ div {
 }
 
 @keyframes change-color {
-   0% {background-color: aquamarine}
+   0% {background-color: darkcyan}
    25% {background-color: blueviolet}
    50% {background-color: rgb(61, 19, 248)}
    75% {background-color: rgb(127, 110, 202)}
