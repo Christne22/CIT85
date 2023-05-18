@@ -1,0 +1,433 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   background-color: blanchedalmond;
+}
+
+.heading {
+   display: block;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+nav {
+   background-color: rgb(42, 223, 223);
+   font-size: 1.5rem;
+   line-height: 3rem;
+   text-align: right;
+   border: 10px double navy;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+   margin: 1rem;
+   list-style: none;
+   display: inline;
+}
+
+a:hover {
+   color: goldenrod;
+   font-weight: bold;
+}
+
+.current {
+   color:darkcyan;
+}
+
+header {
+   text-align: center;
+   border: 10px double rgb(42, 223, 223);
+   color: rgb(42, 223, 223);
+   background-color: navy;
+}
+
+h1 {
+   font-family: 'Lucida Handwriting', 'Century Gothic', Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   line-height: 2rem;
+}
+
+.spacer {
+   height: 150px;
+   width: auto;
+}
+
+.main-hobby {
+   margin-top: 5px;
+   height: auto;
+   border: 10px double navy;
+   margin-bottom: 5px;
+   display: flex;
+   flex: 1;
+}
+
+.section-hobby {
+   height: auto;
+   width: 50%; 
+   display: flex;
+   flex-direction: column;
+   flex-flow: column nowrap;
+   flex: 1;
+   float: left;
+}
+div.image {
+   margin: auto;
+   width: 85%;
+   margin-top: 10px;
+   padding-top: 5px;
+}
+
+.image-info {
+   height: auto;
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   margin-top: 5px;
+   box-sizing: border-box;
+   border: 3px solid navy;
+   padding: 5px 10px 5px 10px;
+}
+
+img {
+   height: auto;
+   width: 100%;
+}
+
+#one { 
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex: 1;
+   border: 10px double rgb(42, 223, 223);    
+} 
+
+#two { 
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex: 1;
+   border: 10px double rgb(42, 223, 223);    
+}
+
+div.aside-hobby {
+   height: auto;
+   width: 50%;
+   border: 10px double rgb(42, 223, 223); 
+   display: flex;
+   flex-direction: column;
+   flex-flow: column nowrap;
+   flex: 1;
+   float: right;
+}
+
+aside.image {
+   margin: auto;
+   width: 85%;
+   margin-top: 10px;
+   padding-top: 5px;
+}
+
+.image-info-one {
+   height: auto;
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   margin-top: 5px;
+   margin-bottom: 50px;
+   box-sizing: border-box;
+   border: 3px solid navy;
+   padding: 5px 10px 5px 10px;
+}
+
+footer {
+   margin-top: 0;
+   display: block;
+   background-color: navy;
+   color: white;
+   text-align: center;
+   border: 10px double rgb(42, 223, 223);
+   clear: both;
+   position: relative;
+   font-size: 1.25rem;
+   line-height: 1.5rem;
+   font-weight: 100;
+   font-family: 'Lucida Handwriting', 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 576px) {
+   nav {
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;  
+      padding: 0;
+      border: 5px double navy;
+   }
+   a {
+      line-height: 1.5rem;
+      margin: auto;
+      font-size: 1.25rem;
+      height: auto;
+      justify-content: center;
+      margin: 0;
+      text-align: center;
+   }
+   header {
+      border: 5px double rgb(42, 223, 223);
+   }
+   h1 {
+      font-size: 1rem;
+      line-height: 1.25rem;
+   }
+   .spacer {
+      height: 170px;
+      width: auto;   
+      margin-top: 10px;
+   }
+   .main-hobby {
+      border: none;
+      height: auto;
+      display: block;
+      margin-bottom: 0;
+      margin-top: 5px;
+   }
+   .section-hobby {
+      display: block;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   div.image {
+      margin: auto;
+   }
+   .image-info {
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   img {
+      height: auto;
+      width: 100%;
+   }
+   #one {
+      display: block;
+      border: 5px double navy;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   #two {
+      display: block;
+      border: 5px double rgb(42, 223, 223);
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   div.aside-hobby {
+      display: block;
+      border: 5px double navy;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   aside.image {
+      margin-bottom: 10px;
+      height: auto;
+      width: 85%;
+      padding: 5px;
+   }
+   .image-info-one {
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   footer {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      margin-top: 3px;
+      border: 5px double rgb(42, 223, 223);
+   }
+}
+
+@media (max-width: 768px) {
+   nav {
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;  
+      padding: 0;
+      border: 5px double navy;
+   }
+   a {
+      line-height: 1.5rem;
+      margin: auto;
+      font-size: 1.25rem;
+      height: auto;
+      justify-content: center;
+      margin: 0;
+      text-align: center;
+   }
+   header {
+      border: 5px double rgb(42, 223, 223);
+   }
+   h1 {
+      font-size: 1rem;
+      line-height: 1.25rem;
+   }
+   .spacer {
+      height: 170px;
+      width: auto;   
+      margin-top: 70px;
+   }
+   .main-hobby {
+      border: none;
+      display: block;
+      margin-bottom: 0;
+      margin-top: 5px;
+   }
+   .section-hobby {
+      border: none;
+      display: block;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   div.image {
+      margin: auto;
+   }
+   .image-info {
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   img {
+      height: auto;
+      width: 100%;
+   }
+   #one {
+      display: block;
+      border: 5px double navy;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   #two {
+      display: block;
+      border: 5px double rgb(42, 223, 223);
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   div.aside-hobby {
+      display: block;
+      border: 5px double navy;
+      height: auto;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+   aside.image {
+      margin-bottom: 10px;
+      height: auto;
+      width: 85%;
+      padding: 5px;
+   }
+   .image-info-one {
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   footer {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      margin-top: 5px;
+      border: 5px double rgb(42, 223, 223);
+   }
+}
+
+@media (max-width: 992px) {
+   nav {
+      border: 5px double navy;
+   }
+   header {
+      border: 5px double rgb(42, 223, 223);
+   }
+   h1 {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+   }
+   .spacer {
+      height: 120px;
+   }
+   div.image {
+      width: 80%;
+      margin-top: 5px;
+   }
+   .section-hobby {
+      height: auto;
+   }
+   .image-info {
+      margin-bottom: 5px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   img {
+      height: auto;
+      width: 100%;
+      }
+   aside.image {
+      width: 80%;
+      margin-top: 5px;
+   }
+   .image-info-one {
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      padding: 5px;
+   }
+   footer {
+      border: 5px double rgb(42, 223, 223);
+   }
+}
+@media (max-width: 1200px) {
+   .section-hobby {
+      height: auto;
+   }
+   div.image {
+      margin-top: 5px;
+   }
+   .image-info {
+      height: auto;
+      margin-bottom: 10px;
+      padding: 5px;
+   }
+   #one {
+      height: auto;
+   }
+   #two {
+      height: auto;
+   }
+   div.aside-hobby {
+      height: auto;
+   }
+   aside.image {
+      width: 85%;
+      margin-top: 5px;
+   }
+   .image-info-one {
+      height: auto;
+      margin-bottom: 20px;
+   }
+}
