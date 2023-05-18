@@ -109,8 +109,8 @@ h1 {
 }
 
 .section-cats {
-   width: 98%;
-   margin: auto;
+   width: 100%;
+   margin: 10px;
 }
 
 #dis-one {
@@ -842,7 +842,7 @@ footer {
       height: auto;
    }
    .section-cats {
-      width: 98%;
+      width: 100%;
       margin: auto;
    }   
    div.image {
@@ -853,6 +853,27 @@ footer {
       margin-bottom: 10px;
       padding: 5px;
    }
+   img {
+      height: auto;
+      width: 100%;
+   }
+   #dis-one {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   #dis-top {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #dis-two {
+      margin-bottom: 5px;
+   }
+   #dis-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }  
    #one {
       height: auto;
    }
@@ -871,10 +892,31 @@ footer {
       margin-bottom: 20px;
    }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
    .main-page {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 0px 50px;
    }
+   .section-disney {
+   width: 100%;
+   margin: 10px ;
+   }
+   #dis-one {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   #dis-top {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #dis-two {
+      margin-bottom: 5px;
+   }
+   #dis-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }  
    }
