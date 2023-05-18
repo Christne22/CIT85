@@ -64,6 +64,11 @@ h1 {
    margin: 10px;
 }
 
+h1.title-about {
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 0;
+}
 .spacer {
    height: 150px;
    width: auto;
@@ -93,6 +98,15 @@ h1 {
    flex: 1;
 }
 
+.main-about {
+   margin-top: 5px;
+   height: auto;
+   border: 10px double navy;
+   margin-bottom: 5px;
+   display: flex;
+   flex: 1;
+}
+
 .section-hobby {
    height: auto;
    width: 50%; 
@@ -111,6 +125,12 @@ h1 {
 .section-cats {
    width: 98%;
    margin: auto;
+}
+
+.section-about {
+   width: 100%;
+   height: auto;
+   margin: 0;
 }
 
 #dis-one {
@@ -157,6 +177,12 @@ h1 {
 }
 
 #dis-bottom {
+   display: flex;
+   flex-direction: row;
+   flex-flow: row nowrap;
+}
+
+#about-me {
    display: flex;
    flex-direction: row;
    flex-flow: row nowrap;
@@ -214,6 +240,11 @@ img.cats {
    width: 33.3%;
 }
 
+img.me {
+   height: auto;
+   width: 50%;
+}
+
 #one { 
    height: auto;
    width: 100%;
@@ -231,6 +262,17 @@ img.cats {
 }
 
 div.aside-hobby {
+   height: auto;
+   width: 50%;
+   border: 10px double rgb(42, 223, 223); 
+   display: flex;
+   flex-direction: column;
+   flex-flow: column nowrap;
+   flex: 1;
+   float: right;
+}
+
+aside.about {
    height: auto;
    width: 50%;
    border: 10px double rgb(42, 223, 223); 
@@ -269,6 +311,19 @@ aside.image {
    text-align: center;
    font-size: 1.25rem;
    line-height: 1.5rem;
+}
+
+.image-info-about {
+   height: auto;
+   width: 100%;
+   box-sizing: border-box;
+   margin: auto;
+   margin-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-align: center;
+   font-size: 1.35rem;
+   line-height: 1.75rem;
 }
 
 .image-kittens {
@@ -369,6 +424,12 @@ footer {
       margin-top: 5px;
       margin-bottom: 5px;
    }
+   .main-about {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
    .main-cats {
       height: auto;
       display: block;
@@ -382,6 +443,12 @@ footer {
       margin-bottom: 5px;
    }
    .section-disney {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
+   .section-about {
       height: auto;
       display: flex;
       flex-direction: column;
@@ -407,6 +474,10 @@ footer {
       width: 100%;
    }
    img.cats {
+      width: 100%;
+      height: auto;
+   }
+   img.me {
       width: 100%;
       height: auto;
    }
@@ -436,6 +507,11 @@ footer {
       margin-bottom: 5px;
    }
    #dis-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #about-me {
       display: flex;
       flex-direction: column;
       flex-flow: column nowrap;
@@ -495,11 +571,19 @@ footer {
       width: 85%;
       padding: 5px;
    }
+   aside.about {
+      width: 100%;
+      height: auto;
+   }
    .image-info-one {
       margin-bottom: 10px;
       height: auto;
       width: 100%;
       padding: 5px;
+   }
+   .image-info-about {
+      width: 100%;
+      height: auto;
    }
    .image-info-cats {
       height: auto;
@@ -523,7 +607,6 @@ footer {
       background-size: cover;   
       background-position: 0px 200px;
    }
-
    nav {
       display: flex;
       flex-direction: column;
@@ -531,7 +614,6 @@ footer {
       padding: 0;
       border: 5px double navy;
    }
-
    a {
       line-height: 1.25rem;
       margin: auto;
@@ -565,6 +647,12 @@ footer {
       margin-top: 5px;
       margin-bottom: 5px;
    }
+   .main-about {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
    .main-cats {
       height: auto;
       display: block;
@@ -579,6 +667,12 @@ footer {
       margin-bottom: 5px;
    }
    .section-disney {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
+   .section-about {
       height: auto;
       display: flex;
       flex-direction: column;
@@ -604,6 +698,10 @@ footer {
       width: 100%;
    }
    img.cats {
+      width: 100%;
+      height: auto;
+   }
+   img.me {
       width: 100%;
       height: auto;
    }
@@ -633,6 +731,11 @@ footer {
       margin-bottom: 5px;
    }
    #dis-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #about-me {
       display: flex;
       flex-direction: column;
       flex-flow: column nowrap;
@@ -692,11 +795,19 @@ footer {
       width: 85%;
       padding: 5px;
    }
+   aside.about {
+      width: 100%;
+      height: auto;
+   }
    .image-info-one {
       margin-bottom: 10px;
       height: auto;
       width: 100%;
       padding: 5px;
+   }
+   .image-info-about {
+      width: 100%;
+      height: auto;
    }
    footer {
       font-size: .75rem;
@@ -732,6 +843,12 @@ footer {
       margin-top: 5px;
       margin-bottom: 5px;
    }
+   .main-about {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
    div.image {
       width: 80%;
       margin-top: 5px;
@@ -740,6 +857,12 @@ footer {
       height: auto;
    }
    .section-cats {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
+   .section-about {
       height: auto;
       display: flex;
       flex-direction: column;
@@ -756,6 +879,10 @@ footer {
       width: 100%;
    }
    img.cats {
+      width: 100%;
+      height: auto;
+   }
+   img.me {
       width: 100%;
       height: auto;
    }
@@ -776,6 +903,11 @@ footer {
       flex-direction: column;
       flex-flow: column nowrap;
    }  
+   #about-me {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
    #cat-story {
       margin-bottom: 10px;
       border: 5px double rgb(42, 223, 223);
@@ -822,11 +954,19 @@ footer {
       width: 80%;
       margin-top: 5px;
    }
+   aside.about {
+      width: 100%;
+      height: auto;
+   }
    .image-info-one {
       margin-bottom: 10px;
       height: auto;
       width: 100%;
       padding: 5px;
+   }
+   .image-info-about {
+      width: 100%;
+      height: auto;
    }
    footer {
       border: 5px double rgb(42, 223, 223);
@@ -838,6 +978,12 @@ footer {
       background-size: cover;
       background-position: 0px 100px;
    }
+   .main-about {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
    .section-hobby {
       height: auto;
    }
@@ -845,6 +991,12 @@ footer {
       width: 98%;
       margin: auto;
    }   
+   .section-about {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
    div.image {
       margin-top: 5px;
    }
@@ -856,6 +1008,10 @@ footer {
    img {
       height: auto;
       width: 100%;
+   }
+   img.me {
+      width: 100%;
+      height: auto;
    }
    #dis-one {
       margin-top: 10px;
@@ -874,6 +1030,11 @@ footer {
       flex-direction: column;
       flex-flow: column nowrap;
    }  
+   #about-me {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
    #one {
       height: auto;
    }
@@ -887,9 +1048,19 @@ footer {
       width: 85%;
       margin-top: 5px;
    }
+   aside.about {
+      width: 100%;
+      height: auto;
+   }
    .image-info-one {
       height: auto;
       margin-bottom: 20px;
+   }
+   .image-info-about {
+      width: 100%;
+      height: auto;
+      margin-top: 0;
+      margin-bottom: 0;
    }
 }
 @media (max-width: 1600px) {
@@ -919,4 +1090,17 @@ footer {
       flex-direction: column;
       flex-flow: column nowrap;
    }  
+   .image-info-about {
+      height: auto;
+      width: 100%;
+      box-sizing: border-box;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: center;
+      font-size: 1.25rem;
+      line-height: 1.25rem;
    }
+}
