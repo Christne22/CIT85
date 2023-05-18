@@ -978,6 +978,12 @@ footer {
       background-size: cover;
       background-position: 0px 100px;
    }
+   .main-cats {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }   
    .main-about {
       height: auto;
       display: block;
@@ -988,9 +994,11 @@ footer {
       height: auto;
    }
    .section-cats {
-      width: 98%;
-      margin: auto;
-   }   
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
    .section-about {
       height: auto;
       display: flex;
@@ -1009,9 +1017,55 @@ footer {
       height: auto;
       width: 100%;
    }
+   img.cats {
+      width: 100%;
+      height: auto;
+   }
    img.me {
       width: 100%;
       height: auto;
+   }
+   #cat-story {
+      margin-bottom: 10px;
+      border: 5px double rgb(42, 223, 223);
+   }
+   #cat-top {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #cat-mid {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #cat-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap
+   }
+   .image-kittens {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   .image-alex {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   .image-bell {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #alexis {
+      margin-bottom: 5px;
+      border: 5px double navy;
+   }
+   #bella {
+      margin-bottom: 5px;
+      border: 5px double rgb(42, 223, 223);
    }
    #dis-one {
       margin-top: 10px;
@@ -1069,9 +1123,67 @@ footer {
       background-size: cover;
       background-position: 0px 50px;
    }
+   .main-cats {
+      height: auto;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }   
+   .section-cats {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+   }
    .section-disney {
    width: 100%;
    margin: 10px ;
+   }
+   img.cats {
+      width: 100%;
+      height: auto;
+   }
+   #cat-story {
+      margin-bottom: 10px;
+      border: 5px double rgb(42, 223, 223);
+   }
+   #cat-top {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #cat-mid {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #cat-bottom {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap
+   }
+   .image-kittens {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   .image-alex {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   .image-bell {
+      display: flex;
+      flex-direction: column;
+      flex-flow: column nowrap;
+   }
+   #alexis {
+      margin-bottom: 5px;
+      border: 5px double navy;
+   }
+   #bella {
+      margin-bottom: 5px;
+      border: 5px double rgb(42, 223, 223);
    }
    #dis-one {
       margin-top: 10px;
